@@ -101,6 +101,7 @@
             color: #4d4d4d;
             font-size: 18px;
             padding: 8px 0;
+            display: block;
             position: relative;
         }
 
@@ -108,17 +109,23 @@
             color: #ffffff;
             background-color: #e37655;
             width: 100%;
-
+            line-height: 21px;
         }
 
         .logoContainer ul.menuList li a:hover:after{
-            content: url(littleRibbonRight.png) no-repeat;
+            content: " ";
+            background: url("littleRibbonRight.png");
+            width: 14px;
+            height: 37px;
             position: absolute;
             top: 0;
         }
 
         .logoContainer ul.menuList li a:hover:before{
-            content: url(littleRibbonLeft.png) no-repeat;
+            content: " ";
+            background: url("littleRibbonLeft.png");
+            width: 14px;
+            height: 37px;
             position: absolute;
             top: 0;
             left: -14px;
