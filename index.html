@@ -10,6 +10,19 @@
         <script src="jquery.easing-1.3.js" ></script>
         <link href="rs-minimal-white.css" rel="stylesheet"></link>
     </head>
+
+    <!--[if gte IE 8]>
+        <style>
+            .pageContainer{
+                width: 920px;
+            }
+            .sliderContainer{
+                width: 960px;
+            }
+        </style>
+    <![endif]-->
+
+
     <style type="text/css">
         * {
             -webkit-box-sizing: border-box;
@@ -435,7 +448,6 @@
             bottom: -60px;
             position: absolute;
         }
-
 
         @media screen and (min-width: 0px) and (max-width: 960px) { 
             .rsContent {
